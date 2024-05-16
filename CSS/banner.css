@@ -1,0 +1,8 @@
+.banner{
+    height: 360px;
+    margin-top: 16px;
+}
+
+.banner .carousel{
+    height: inherit;
+}
