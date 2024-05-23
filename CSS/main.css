@@ -1,5 +1,9 @@
 @import url(./setting.css);
 @import url(./header.css);
-@import url(./banner.css);
+@import url(./slider.css);
 @import url(./recommended.css);
-@import url(./footer.css);
+@import url(./featured.css);
+@import url(./trending.css);
+@import url(./gifted.css);
+@import url(./banner.css);
+@import url(./Footer.css);
