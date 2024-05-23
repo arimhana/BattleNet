@@ -153,6 +153,61 @@
     border: unset;
 }
 
-.slider .swiper1 .swiper-pagination{
+.slider .swiper1 .swiper-button-next {
+    width: 40px;
+    height: 80px;
     color: white;
+    background-color: rgb(21, 23, 30);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 4px;
+    transition-property: border-color, border-style;
+    transition-duration: 800ms;
+    visibility: hidden;
+}
+
+.slider .swiper1 .swiper-button-next:hover{
+    border-color: rgb(113, 110, 110);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.slider .swiper1 .swiper-button-next::after{
+    font-size: 22px;
+}
+
+.slider .swiper1 .swiper-button-prev {
+    width: 40px;
+    height: 80px;
+    color: white;
+    background-color: rgb(21, 23, 30);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 4px;
+    transition-property: border-color, border-style;
+    transition-duration: 500ms;
+    visibility: hidden;
+}
+
+.slider .swiper1 .swiper-button-prev:hover{
+    border-color: rgb(113, 110, 110);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.slider .swiper1 .swiper-button-prev::after{
+    font-size: 22px;
+}
+
+.slider .swiper1:hover .swiper-button-next{
+    visibility: visible;
+}
+
+.slider .swiper1:hover .swiper-button-prev{
+    visibility: visible;
+}
+
+.slider .swiper1 .swiper-pagination span{
+   width: 40px;
+   height: 6px;
+   border-radius: 4px;
+   background-color: rgb(20,142,255);
 }
